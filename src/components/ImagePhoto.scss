@@ -1,0 +1,29 @@
+.ImagePhoto {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+
+  .user {
+    border-radius: 50px;
+    background-color: antiquewhite;
+    background-clip: content-box;
+    padding: 20px 20px;
+  }
+
+  .photo {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 180px;
+    height: 240px;
+    // 3:4 (증명사진 비율) 로 했습니다.
+    object-fit: cover;
+    // 가로세로 비율은 유지하면서 컨테이너에 꽉 차도록 설정
+  }
+
+  .text {
+    justify-content: center;
+    // img 옆에 텍스트 정렬 속성
+    display: inline-block;
+    vertical-align: top;
+  }
+}
