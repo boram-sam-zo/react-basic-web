@@ -1,0 +1,18 @@
+.RemoteControl {
+  position: fixed;
+  top: 50%;
+  bottom: auto;
+  right: 1rem;
+  width: 50px;
+  height: 80px;
+  .up,
+  .down {
+    width: 30px;
+    height: 30px;
+    background-color: #f2d5ed;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin: 1rem;
+  }
+}

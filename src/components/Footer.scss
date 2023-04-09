@@ -1,0 +1,12 @@
+.Footer {
+  display: flex;
+  flex: 1;
+  height: 100px;
+  flex-direction: column;
+  background: #c0aac0;
+  padding: 0.5rem;
+
+  .text {
+    font-size: 1rem;
+  }
+}
