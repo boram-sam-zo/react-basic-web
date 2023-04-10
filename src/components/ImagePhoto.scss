@@ -1,17 +1,24 @@
 .ImagePhoto {
-  width: 100%;
+  width: 70%;
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
 
   .user {
     border-radius: 50px;
-    background-image: linear-gradient(to bottom, antiquewhite 70%, white 100%);
-    background-color: antiquewhite;
+    background-color: #aca0b5;
     background-clip: content-box;
     padding: 20px 20px;
+    display: inline-block; // 이거 적용하는게
   }
-
+  .ll {
+    float: left;
+    text-align: left;
+  }
+  .rr {
+    float: right;
+    text-align: right;
+  }
   .photo {
     padding: 10px 20px;
     border-radius: 50px;
@@ -23,16 +30,10 @@
   }
 
   .text {
+    padding: 10px 10px;
     justify-content: center;
     // img 옆에 텍스트 정렬 속성
     display: inline-block;
     vertical-align: top;
-  }
-  img {
-    transition: all 0.2s linear;
-  }
-  img:hover {
-    border-radius:100px;
-    transform: scale(1.1);
   }
 }
