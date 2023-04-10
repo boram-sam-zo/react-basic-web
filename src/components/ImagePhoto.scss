@@ -27,4 +27,11 @@
     display: inline-block;
     vertical-align: top;
   }
+  img {
+    transition: all 0.2s linear;
+  }
+  img:hover {
+    border-radius:100px;
+    transform: scale(1.1);
+  }
 }
