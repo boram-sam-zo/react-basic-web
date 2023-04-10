@@ -37,6 +37,10 @@ const ImagePhoto = () => {
           노은기
           <br />
           <br />
+          - jin0201948@gmail.com
+          <br />
+          - Nohkii
+          <br />
           - 모든 일에 최선을 다하는 사람이 되자 <br />
           - 추천 맛집 : 코코로카라
           <br />

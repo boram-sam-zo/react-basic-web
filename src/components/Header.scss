@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "designhouseOTFLight00";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+  .header {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0.625rem 0;
+
+    .size {
+      position: relative;
+      div {
+        margin: 0 auto;
+        cursor: pointer;
+        height: 13rem;
+        line-height: 13rem;
+        font-size: 50px;
+        font-weight: 400;
+        font-family: "designhouseOTFLight00";
+      }
+    }
+
+    .menu {
+      width: 1200px;
+      margin: 0 auto;
+      height: 2.5rem;
+      .depth1 {
+        width: 60rem;
+        display: flex;
+        margin: 0 auto;
+        .depth2 > li {
+          border: none;
+          border-collapse: collapse;
+          border-radius: 5px;
+          background-color: #d9c8df;
+        }
+        li > ul {
+          display: none;
+          z-index: 500;
+        }
+      }
+      ul > li {
+        z-index: 500;
+        list-style: none;
+        border: none;
+        width: 10rem;
+        margin: 0 auto;
+        height: 2.3rem;
+        text-align: center;
+        line-height: 2.3rem;
+        background-color: #d9c8df;
+        border-radius: 5px;
+        a {
+          text-decoration: none;
+        }
+        ul {
+          list-style: none;
+          li > a {
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
