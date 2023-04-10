@@ -1,10 +1,10 @@
-import "./ImagePhoto.scss";
+import './ImagePhoto.scss';
 
 const ImagePhoto = () => {
   return (
     <div className="ImagePhoto">
       <div className="user ll">
-        <img className="photo" src="img/photo1.jpg" />
+        <img className="photo" src="img/photo1.jpg" id="i1" />
         <span className="text">
           <br />
           박소영
@@ -26,15 +26,16 @@ const ImagePhoto = () => {
           <br />
           - SayingGamja
           <br />
-          - 경영전공을 했지만 개발자로서의 커리어를 꿈꾸고 있습니다. <br />
+          - 경영전공을 했지만 개발자로서의
+          <br /> 커리어를 꿈꾸고 있습니다. <br />
           여러분들과 함께 성장하는 사람이 되고 싶습니다.
           <br />- 추천 맛집: 낙곱새미장원
         </span>
-        <img src="img/photo5.jpg" className="photo" />
+        <img src="img/photo5.jpg" className="photo" id="i2" />
       </div>
 
       <div className="user ll">
-        <img src="img/photo4.jpg" className="photo" />
+        <img src="img/photo4.jpg" className="photo" id="i3" />
         <span className="text">
           <br />
           노은기
@@ -65,11 +66,11 @@ const ImagePhoto = () => {
           - 추천 맛집 : 연남칼국수
           <br />
         </span>
-        <img src="img/photo3.jpg" className="photo" />
+        <img src="img/photo3.jpg" className="photo" id="i4" />
       </div>
 
       <div className="user ll">
-        <img className="photo" src="img/photo2.jpg" />
+        <img className="photo" src="img/photo2.jpg" id="i5" />
         <span className="text">
           <br />
           배동우

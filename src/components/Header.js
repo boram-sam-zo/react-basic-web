@@ -1,14 +1,14 @@
-import $ from "jquery";
-import "./Header.css";
+import $ from 'jquery';
+import './Header.css';
 
 const Header = () => {
   $(function () {
-    $(".depth1 > li")
+    $('.depth1 > li')
       .mouseover(function () {
-        $(this).find(".depth2").stop().slideDown();
+        $(this).find('.depth2').stop().slideDown();
       })
       .mouseleave(function () {
-        $(this).find(".depth2").stop().slideUp();
+        $(this).find('.depth2').stop().slideUp();
       });
   });
 
@@ -23,7 +23,7 @@ const Header = () => {
         <div className="menu">
           <ul className="depth1">
             <li>
-              <a href="#p1">박소영</a>
+              <a href="#i1">박소영</a>
               <ul className="depth2">
                 <li>
                   <a
@@ -49,7 +49,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a href="#p5">김은수</a>
+              <a href="#i2">김은수</a>
               <ul className="depth2">
                 <li>
                   <a
@@ -81,7 +81,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a href="#p4">노은기</a>
+              <a href="#i3">노은기</a>
               <ul className="depth2">
                 <li>
                   <a
@@ -113,7 +113,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a href="#p3">박지건</a>
+              <a href="#i4">박지건</a>
               <ul className="depth2">
                 <li>
                   <a
@@ -137,7 +137,7 @@ const Header = () => {
               </ul>
             </li>
             <li>
-              <a href="#p2">배동우</a>
+              <a href="#i5">배동우</a>
               <ul className="depth2">
                 <li>
                   <a

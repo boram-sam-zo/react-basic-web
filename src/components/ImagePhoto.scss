@@ -1,5 +1,5 @@
 .ImagePhoto {
-  width: 70%;
+  width: 85%;
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
@@ -12,10 +12,17 @@
     display: inline-block; // 이거 적용하는게
   }
   .ll {
+    background-image: linear-gradient(to right, #d9c8df 50%, white 100%);
+    width: 600px;
+    height: 300px;
     float: left;
     text-align: left;
   }
   .rr {
+    background-image: linear-gradient(to left, #d9c8df 50%, white 100%);
+
+    width: 600px;
+    height: 300px;
     float: right;
     text-align: right;
   }
@@ -28,7 +35,9 @@
     object-fit: cover;
     // 가로세로 비율은 유지하면서 컨테이너에 꽉 차도록 설정
   }
-
+  .photo:hover {
+    border-radius: 100px;
+  }
   .text {
     padding: 10px 10px;
     justify-content: center;

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Board.scss';
 import $ from 'jquery';
-import ModalBasic from './ModalBasic';
+import BM from './BM';
 
 function Board() {
   $(function () {
@@ -54,7 +54,7 @@ function Board() {
                 자료실입니다. <span>2023-01-01</span>
               </li>
               <li>
-                <ModalBasic />
+                <BM />
               </li>
               <li>
                 자료실입니다. <span>2023-01-01</span>

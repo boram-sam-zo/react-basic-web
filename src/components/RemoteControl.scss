@@ -1,16 +1,16 @@
 .RemoteControl {
-  z-index: 9999;
+  z-index: 90;
   position: fixed;
   top: 30%;
   bottom: auto;
   right: 1rem;
   width: 50px;
   height: 80px;
-  *:active{
-    color:black
+  *:active {
+    color: black;
   }
   a:hover {
-    opacity: 0.5
+    opacity: 0.5;
   }
   .up,
   .down {

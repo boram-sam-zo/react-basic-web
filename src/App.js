@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import './App.css';
 import Footer from './components/Footer';
 import Template from './components/Template';
@@ -8,44 +7,16 @@ import Header from './components/Header';
 import MapGuide from './components/MapGuide';
 import ImagePhoto from './components/ImagePhoto';
 import ImageWrap from './components/ImageWrap';
-import BottomBanner from './components/BottomBanner';
 import TemplateWrap from './components/TemplateWrap';
-import { useState } from 'react';
-import Popup from './components/Popup';
 import Board from './components/Board';
-import ModalBasic from './components/ModalBasic';
-
-=======
-import "./App.css";
-import Footer from "./components/Footer";
-import Template from "./components/Template";
-import RemoteControl from "./components/RemoteControl";
-import TopBanner from "./components/TopBanner";
-import Header from "./components/Header";
-import MapGuide from "./components/MapGuide";
-import ImagePhoto from "./components/ImagePhoto";
-import ImageWrap from "./components/ImageWrap";
-import BottomBanner from "./components/BottomBanner";
-import TemplateWrap from "./components/TemplateWrap";
-import { useState } from "react";
-import Popup from "./components/Popup";
->>>>>>> e454cd7343c96dd7e932db845ebabc991b59522b
+import { useState } from 'react';
 function App() {
   const [popup, setPopup] = useState(true);
   return (
     <>
       <TemplateWrap>
-<<<<<<< HEAD
         <Header />
         <TopBanner />
-=======
-        <Template>
-          <Header />
-        </Template>
-
-        <TopBanner />
-
->>>>>>> e454cd7343c96dd7e932db845ebabc991b59522b
         <Template>
           <ImageWrap>
             <ImagePhoto />
