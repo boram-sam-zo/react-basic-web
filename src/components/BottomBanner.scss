@@ -1,5 +1,4 @@
 .BottomBanner {
-  margin-top: 50px;
   width: 100%;
   height: 100px;
   background: white;
@@ -12,6 +11,7 @@
       overflow: hidden;
       background-position: center center;
       background-repeat: no-repeat;
+      background-size: cover;
 
       .im {
         line-height: 100px;

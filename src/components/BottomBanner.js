@@ -23,34 +23,34 @@ const BottomBanner = () => {
       >
         <div className="BottomBanner-wrapper">
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_1.png" alt="이미지1" className="im" />
+            <img src="img/chicken1.png" alt="이미지1" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_2.png" alt="이미지2" className="im" />
+            <img src="img/img/partner_2.png" alt="이미지2" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_3.png" alt="이미지3" className="im" />
+            <img src="img/img/partner_3.png" alt="이미지3" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_4.png" alt="이미지4" className="im" />
+            <img src="img/img/partner_4.png" alt="이미지4" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_5.png" alt="이미지5" className="im" />
+            <img src="img/img/partner_5.png" alt="이미지5" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_1.png" alt="이미지1" className="im" />
+            <img src="img/img/partner_1.png" alt="이미지1" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_2.png" alt="이미지2" className="im" />
+            <img src="img/img/partner_2.png" alt="이미지2" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_3.png" alt="이미지3" className="im" />
+            <img src="img/img/partner_3.png" alt="이미지3" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_4.png" alt="이미지4" className="im" />
+            <img src="img/img/partner_4.png" alt="이미지4" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/partner_5.png" alt="이미지5" className="im" />
+            <img src="img/img/partner_5.png" alt="이미지5" className="im" />
           </SwiperSlide>
         </div>
       </Swiper>

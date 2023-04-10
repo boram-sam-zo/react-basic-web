@@ -13,11 +13,11 @@ const TopBanner = () => {
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={10}
-        slidesPerView={3}
+        slidesPerView={4}
         pagination={{ clickable: true, dynamicBullets: true }}
         className="Swiper"
         autoplay={{ delay: 0, disableOnInteraction: false }}
-        speed={7000}
+        speed={3000}
         loop={true}
       >
         <div className="TopBanner-wrapper">
