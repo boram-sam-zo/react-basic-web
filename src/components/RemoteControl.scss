@@ -6,6 +6,12 @@
   right: 1rem;
   width: 50px;
   height: 80px;
+  *:active{
+    color:black
+  }
+  a:hover {
+    opacity: 0.5
+  }
   .up,
   .down {
     width: 30px;
