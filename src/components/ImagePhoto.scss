@@ -2,6 +2,7 @@
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
+  text-align: center;
 
   .user {
     border-radius: 50px;
@@ -26,5 +27,12 @@
     // img 옆에 텍스트 정렬 속성
     display: inline-block;
     vertical-align: top;
+  }
+  img {
+    transition: all 0.2s linear;
+  }
+  img:hover {
+    border-radius:100px;
+    transform: scale(1.1);
   }
 }
