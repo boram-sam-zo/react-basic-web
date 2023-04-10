@@ -34,7 +34,7 @@ const MapGuide = () => {
     <div
       id="map"
       className="MapView"
-      style={{ width: '400px', height: '400px' }}
+      style={{ width: '600px', height: '370px' }}
     ></div>
   );
 };

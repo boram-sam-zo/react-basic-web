@@ -20,7 +20,7 @@ const RemoteControl = () => {
         </a>
       </div>
       <div className="down" onClick={goToDown}>
-        <a href="#">
+        <a href="#down">
           <BsChevronDown></BsChevronDown>
         </a>
       </div>

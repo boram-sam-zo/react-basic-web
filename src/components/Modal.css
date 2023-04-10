@@ -1,0 +1,18 @@
+.modalWrap {
+  z-index: 9999999;
+  position: absolute;
+}
+.Modal {
+  z-index: 999999;
+  text-align: center;
+}
+.Mim {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+}
+#mim {
+  width: 400px;
+  height: 400px;
+}

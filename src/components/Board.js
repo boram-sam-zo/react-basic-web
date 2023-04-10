@@ -1,14 +1,15 @@
-import React from "react";
-import "./Board.scss";
-import $ from "jquery";
+import React from 'react';
+import './Board.scss';
+import $ from 'jquery';
+import ModalBasic from './ModalBasic';
 
 function Board() {
   $(function () {
-    $(".board_title").click(function () {
-      $(".board_title").removeClass("on");
-      $(this).addClass("on");
-      $(".board_content").hide();
-      $("#" + $(this).data("type")).show();
+    $('.board_title').click(function () {
+      $('.board_title').removeClass('on');
+      $(this).addClass('on');
+      $('.board_content').hide();
+      $('#' + $(this).data('type')).show();
     });
   });
 
@@ -53,7 +54,7 @@ function Board() {
                 자료실입니다. <span>2023-01-01</span>
               </li>
               <li>
-                자료실입니다. <span>2023-01-01</span>
+                <ModalBasic />
               </li>
               <li>
                 자료실입니다. <span>2023-01-01</span>
