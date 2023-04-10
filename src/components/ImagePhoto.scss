@@ -34,10 +34,13 @@
     // 3:4 (증명사진 비율) 로 했습니다.
     object-fit: cover;
     // 가로세로 비율은 유지하면서 컨테이너에 꽉 차도록 설정
+    transition: all 0.2s linear;
   }
   .photo:hover {
     border-radius: 100px;
+    transform: scale(1.1);
   }
+
   .text {
     padding: 10px 10px;
     justify-content: center;
