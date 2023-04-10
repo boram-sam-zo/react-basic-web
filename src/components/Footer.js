@@ -1,7 +1,7 @@
-import React from "react";
-import "./Footer.scss";
-import notionlogo from "../notion.svg";
-import { FaGithub } from "react-icons/fa";
+import React from 'react';
+import './Footer.scss';
+import notionlogo from '../notion.svg';
+import { FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
   return (

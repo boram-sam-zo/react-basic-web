@@ -1,7 +1,7 @@
 /* global kakao */
-import React, { useEffect, useState } from "react";
-import "./MapGuide.scss";
-import { MapMarkerData } from "./MapMarkerData.js";
+import React, { useEffect, useState } from 'react';
+import './MapGuide.scss';
+import { MapMarkerData } from './MapMarkerData.js';
 
 const { kakao } = window;
 
@@ -10,7 +10,7 @@ const MapGuide = () => {
 
   //처음 지도 그리기
   useEffect(() => {
-    const container = document.getElementById("map");
+    const container = document.getElementById('map');
     const options = {
       center: new kakao.maps.LatLng(37.559359, 126.922648),
       level: 3,
@@ -34,7 +34,7 @@ const MapGuide = () => {
     <div
       id="map"
       className="MapView"
-      style={{ width: "600px", height: "600px" }}
+      style={{ width: '400px', height: '400px' }}
     ></div>
   );
 };

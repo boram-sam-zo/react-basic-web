@@ -1,24 +1,28 @@
-import React from "react";
-import "./RemoteControl.scss";
-import { BsChevronUp, BsChevronDown } from "react-icons/bs";
+import React from 'react';
+import './RemoteControl.scss';
+import { BsChevronUp, BsChevronDown } from 'react-icons/bs';
 
 const RemoteControl = () => {
   const goToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
   const goToDown = () => {
     window.scrollTo({
       top: document.body.scrollHeight,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
   return (
     <div className="RemoteControl">
       <div className="up" onClick={goToTop}>
-        <BsChevronUp></BsChevronUp>
+        <a href="#up">
+          <BsChevronUp></BsChevronUp>
+        </a>
       </div>
       <div className="down" onClick={goToDown}>
-        <BsChevronDown></BsChevronDown>
+        <a href="#">
+          <BsChevronDown></BsChevronDown>
+        </a>
       </div>
     </div>
   );

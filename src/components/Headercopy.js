@@ -1,21 +1,21 @@
-import React, { useEffect, useRef, useState } from "react";
-import "./Header.css";
-import logo from "./img/strawberry.png";
+import React, { useEffect, useRef, useState } from 'react';
+import './Header.css';
+import logo from './img/strawberry.png';
 
 const Header = () => {
   const liRef = useRef([]);
   const ulRef = useRef([]);
 
   useEffect(() => {
-    if ((ulRef.current[0].style.display = "none")) {
+    if ((ulRef.current[0].style.display = 'none')) {
       liRef.current[0].addEventListener(
-        "MouseOver",
-        () => (ulRef.current[0].style.display = "block")
+        'MouseOver',
+        () => (ulRef.current[0].style.display = 'block')
       );
     } else {
       ulRef.current[0].addEventListener(
-        "MouseOut",
-        () => (ulRef.current[0].style.display = "none")
+        'MouseOut',
+        () => (ulRef.current[0].style.display = 'none')
       );
     }
   });

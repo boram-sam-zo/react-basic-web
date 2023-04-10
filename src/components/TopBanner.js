@@ -13,7 +13,7 @@ const TopBanner = () => {
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={10}
-        slidesPerView={1}
+        slidesPerView={3}
         pagination={{ clickable: true, dynamicBullets: true }}
         className="Swiper"
         autoplay={{ delay: 0, disableOnInteraction: false }}
@@ -22,19 +22,34 @@ const TopBanner = () => {
       >
         <div className="TopBanner-wrapper">
           <SwiperSlide className="SwiperSlide">
-            <img src="images/visual1.png" alt="이미지1" className="im" />
+            <img src="img/photo1.jpg" alt="이미지1" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/visual2.png" alt="이미지2" className="im" />
+            <img src="img/photo2.jpg" alt="이미지2" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/visual3.png" alt="이미지3" className="im" />
+            <img src="img/photo3.jpg" alt="이미지3" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/visual4.png" alt="이미지4" className="im" />
+            <img src="img/photo4.jpg" alt="이미지4" className="im" />
           </SwiperSlide>
           <SwiperSlide className="SwiperSlide">
-            <img src="images/보노.jpg" alt="이미지5" className="im2" />
+            <img src="img/photo5.jpg" alt="이미지5" className="im2" />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <img src="img/photo1.jpg" alt="이미지1" className="im" />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <img src="img/photo2.jpg" alt="이미지2" className="im" />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <img src="img/photo3.jpg" alt="이미지3" className="im" />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <img src="img/photo4.jpg" alt="이미지4" className="im" />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <img src="img/photo5.jpg" alt="이미지5" className="im2" />
           </SwiperSlide>
         </div>
       </Swiper>

@@ -1,10 +1,13 @@
 .TopBanner {
+  // background-image: url('../../public/img/image.gif');
+  background-image: linear-gradient(to bottom, #d9c8df -50%, white 100%);
+  // background-size: 500px;
+  border-radius: 10px;
   width: 100%;
-  height: 500px;
-  background: gray;
-  position: relative;
+  height: 300px;
+  position: relative; //#a6c1ee #fbc2eb
   .Swiper {
-    height: 500px;
+    height: 300px;
     overflow: hidden;
     .SwiperSlide {
       width: 1200px;
@@ -15,7 +18,6 @@
       background-size: cover;
 
       .im {
-        width: 100%;
         height: 100%;
         margin: auto;
         display: block;

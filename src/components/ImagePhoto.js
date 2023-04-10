@@ -1,10 +1,10 @@
-import "./ImagePhoto.scss";
+import './ImagePhoto.scss';
 
 const ImagePhoto = () => {
   return (
     <div className="ImagePhoto">
       <div className="user">
-        <img className="photo" src="img/photo1.jpg" />
+        <img className="photo" src="img/photo1.jpg" id="p1" />
         <span className="text">
           <br />
           박소영
@@ -18,7 +18,7 @@ const ImagePhoto = () => {
 
       <div className="user">
         <span className="title">
-          <img className="photo" src="img/photo2.jpg" />
+          <img className="photo" src="img/photo2.jpg" id="p2" />
         </span>
         <span className="text">
           <br />
@@ -35,7 +35,7 @@ const ImagePhoto = () => {
 
       <div className="user">
         <span className="title">
-          <img src="img/photo3.jpg" className="photo" />
+          <img src="img/photo3.jpg" className="photo" id="p3" />
         </span>
         <span className="text">
           <br />
@@ -51,7 +51,7 @@ const ImagePhoto = () => {
 
       <div className="user">
         <span className="title">
-          <img src="img/photo4.jpg" className="photo" />
+          <img src="img/photo4.jpg" className="photo" id="p4" />
         </span>
         <span className="text">
           <br />
@@ -66,7 +66,7 @@ const ImagePhoto = () => {
 
       <div className="user">
         <span className="title">
-          <img src="img/photo5.jpg" className="photo" />
+          <img src="img/photo5.jpg" className="photo" id="p5" />
         </span>
         <span className="text">
           <br />
