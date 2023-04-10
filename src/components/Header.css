@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "designhouseOTFLight00";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_three@1.0/designhouseOTFLight00.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
@@ -13,9 +20,14 @@
   text-align: center;
   padding: 0.625rem 0;
 }
-.logo {
-  width: 6.25rem;
+.wrap > .header > .size > div {
+  margin: 0 auto;
   cursor: pointer;
+  height: 13rem;
+  line-height: 13rem;
+  font-size: 50px;
+  font-weight: 400;
+  font-family: "designhouseOTFLight00";
 }
 .header > .size {
   position: relative;

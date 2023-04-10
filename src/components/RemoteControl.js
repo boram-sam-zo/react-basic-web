@@ -14,16 +14,16 @@ const RemoteControl = () => {
   };
   return (
     <div className="RemoteControl">
-      <div className="up" onClick={goToTop}>
-        <a href="#up">
+      <a href="#up">
+        <div className="up" onClick={goToTop}>
           <BsChevronUp></BsChevronUp>
-        </a>
-      </div>
-      <div className="down" onClick={goToDown}>
-        <a href="#down">
+        </div>
+      </a>
+      <a href="#">
+        <div className="down" onClick={goToDown}>
           <BsChevronDown></BsChevronDown>
-        </a>
-      </div>
+        </div>
+      </a>
     </div>
   );
 };

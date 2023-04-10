@@ -1,8 +1,9 @@
 import "./ImagePhoto.scss";
+
 const ImagePhoto = () => {
   return (
     <div className="ImagePhoto">
-      <div className="user">
+      <div className="user ll">
         <img className="photo" src="img/photo1.jpg" />
         <span className="text">
           <br />
@@ -14,7 +15,8 @@ const ImagePhoto = () => {
           - 추천 맛집 : 최사장네닭 <br />
         </span>
       </div>
-      <div className="user">
+
+      <div className="user rr">
         <span className="text">
           <br />
           김은수
@@ -30,19 +32,25 @@ const ImagePhoto = () => {
         </span>
         <img src="img/photo5.jpg" className="photo" />
       </div>
-      <div className="user">
+
+      <div className="user ll">
         <img src="img/photo4.jpg" className="photo" />
         <span className="text">
           <br />
           노은기
           <br />
           <br />
+          - jin0201948@gmail.com
+          <br />
+          - Nohkii
+          <br />
           - 모든 일에 최선을 다하는 사람이 되자 <br />
           - 추천 맛집 : 코코로카라
           <br />
         </span>
       </div>
-      <div className="user">
+
+      <div className="user rr">
         <span className="text">
           <br />
           박지건 <br />
@@ -59,7 +67,8 @@ const ImagePhoto = () => {
         </span>
         <img src="img/photo3.jpg" className="photo" />
       </div>
-      <div className="user">
+
+      <div className="user ll">
         <img className="photo" src="img/photo2.jpg" />
         <span className="text">
           <br />
@@ -76,4 +85,5 @@ const ImagePhoto = () => {
     </div>
   );
 };
+
 export default ImagePhoto;
