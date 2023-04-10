@@ -1,12 +1,13 @@
-import './App.css';
-import Footer from './components/Footer';
-import Template from './components/Template';
-import RemoteControl from './components/RemoteControl';
-import TopBanner from './components/TopBanner';
-import Header from './components/Header';
-import MapGuide from './components/MapGuide';
-import ImagePhoto from './components/ImagePhoto';
-import ImageWrap from './components/ImageWrap';
+import "./App.css";
+import Footer from "./components/Footer";
+import Template from "./components/Template";
+import RemoteControl from "./components/RemoteControl";
+import TopBanner from "./components/TopBanner";
+import Header from "./components/Header";
+import MapGuide from "./components/MapGuide";
+import ImagePhoto from "./components/ImagePhoto";
+import ImageWrap from "./components/ImageWrap";
+import Board from "./components/Board";
 
 function App() {
   return (
@@ -17,7 +18,6 @@ function App() {
         <ImageWrap>
           <ImagePhoto />
         </ImageWrap>
-
         <MapGuide />
         <Footer />
       </Template>
